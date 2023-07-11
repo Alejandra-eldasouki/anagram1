@@ -1,10 +1,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Anagram.Models;
+using Palindrome.Models;
 
-namespace Anagram.Tests
+namespace Palindrome.Tests
 {
   [TestClass]
-  public class AnagramTests
+  public class PalindromeTests
   {
     // Test methods go here
   }

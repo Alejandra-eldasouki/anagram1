@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Anagram.Models
+namespace Palindrome.Models
 {
-    public class Anagram
+    public class Palindrome
     {
         
     }
