@@ -18,6 +18,7 @@ namespace Palindrome.Models
         {
             string lowercaseWord = Word.ToLower(); 
             char[] charArray = lowercaseWord.ToCharArray();
+            Array.Reverse(charArray);
             return charArray;
         }
     }

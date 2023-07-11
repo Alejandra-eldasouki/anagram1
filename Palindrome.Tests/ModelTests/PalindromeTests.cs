@@ -30,17 +30,30 @@ namespace Palindrome.Tests
     //   Assert.AreEqual(testWordLowercase, wordLowercase);
     // }
     
-    [TestMethod]
-    public void  IsPalindrome_ConvertWordToCharacterArray()
-    {
-        // Arrange
-        char[] charArray =  "test".ToCharArray();
-        TestWord testWord = new TestWord("TEST");
-        // Act
-        char[] testCharacterArray = testWord.IsPalindrome();
-        // Assert
-        CollectionAssert.AreEqual(testCharacterArray, charArray);
+    // [TestMethod]
+    // public void  IsPalindrome_ConvertWordToCharacterArray_CharArray()
+    // {
+    //     // Arrange
+    //     char[] charArray =  "test".ToCharArray();
+    //     TestWord testWord = new TestWord("TEST");
+    //     // Act
+    //     char[] testCharacterArray = testWord.IsPalindrome();
+    //     // Assert
+    //     CollectionAssert.AreEqual(testCharacterArray, charArray);
 
+    // }
+
+    [TestMethod]
+
+    public void IsPalindrome_ReverseCharacterArray_CharArray()
+    {
+        //Arrange
+        char[] charArray = "tset".ToCharArray();
+        TestWord testWord = new TestWord("test");
+        //Act
+        char[] testReverseArray = testWord.IsPalindrome();
+        //Assert
+        CollectionAssert.AreEqual(testReverseArray, charArray);
     }
   }
 }
