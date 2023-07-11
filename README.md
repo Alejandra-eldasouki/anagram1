@@ -1,2 +1,1 @@
-<!-- Co-authored-by: Austin Papritz
-<austin@papritz.dev> -->
+<!-- Co-authored-by: Austin Papritz <austinpapritz@users.noreply.github.com> -->
