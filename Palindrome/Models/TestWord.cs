@@ -14,9 +14,11 @@ namespace Palindrome.Models
             Word = input;
         }
 
-        public string IsPalindrome()
+        public char[] IsPalindrome()
         {
-             return Word.ToLower(); 
+            string lowercaseWord = Word.ToLower(); 
+            char[] charArray = lowercaseWord.ToCharArray();
+            return charArray;
         }
     }
 }
