@@ -1,3 +1,2 @@
-Co-Author by:
+Co-authored-by: Austin Papritz
 <austin@papritz.dev>
-<Austin Papritz>
