@@ -7,6 +7,11 @@ namespace Palindrome.Models
 {
     public class Palindrome
     {
+        // public string Word { get; }
         
+        // public Palindrome(string input)
+        // {
+        //     Word = input;
+        // }
     }
 }
