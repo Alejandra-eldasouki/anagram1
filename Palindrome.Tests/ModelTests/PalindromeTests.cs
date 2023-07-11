@@ -15,5 +15,17 @@ namespace Palindrome.Tests
       // Assert
       Assert.AreEqual(typeof(TestWord), newTestWord.GetType());
     }
+
+    [TestMethod]
+    public void IsPalindromeToLowercase_MakeWordLowercase_String()
+    {
+      // Arrange
+      string wordLowercase = "test";
+      TestWord testWord = new TestWord("TEST");
+      // Act
+      string testWordLowercase = testWord.IsPalindrome();
+      // Assert
+      Assert.AreEqual(testWordLowercase, wordLowercase);
+    }
   }
 }
